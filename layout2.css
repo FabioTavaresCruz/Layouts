@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+.container{
+  height: 100vh;
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  height: 150px;
+  background-color: red;
+  border: 0px solid white;
+  border-radius:0px;
+}
+section{
+  display: flex;
+  flex: 1;
+  border-radius: 0px;
+}
+.aside{
+  flex: 1;
+  background-color: lightyellow;
+  border-radius: 0px;
+}
+.main{
+  flex: 2;
+  background-color: lightgreen;
+  border-radius: 0px;
+}
+.end{
+  flex: 1;
+  background-color: skyblue;
+  border-radius: 0px;
+}
+footer{
+  height: 150px;
+  background-color: blueviolet;
+  border-radius: 0px;
+}
